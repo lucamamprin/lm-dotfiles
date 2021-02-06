@@ -4,7 +4,9 @@
 rm ~/.vimrc
 rm ~/.bashrc
 rm ~/.bash_aliases
+rm ~/.Xmodmap
 
 
 stow vimconfig
 stow bashconfig
+stow x-files
