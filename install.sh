@@ -11,6 +11,7 @@ echo "Applying symlinks..."
 stow vimconfig
 stow bashconfig
 stow x-files
+stow vscode
 echo "Done."
 
 echo "Downloading plug.vim..."
