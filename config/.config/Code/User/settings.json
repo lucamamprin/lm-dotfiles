@@ -1,5 +1,5 @@
 {
-    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Nord",
     "window.zoomLevel": 1,
     "git.autofetch": true,
@@ -17,5 +17,8 @@
     },
     "eslint.validate": [
         "javascript"
-    ]
+    ],
+    "workbench.startupEditor": "none",
+    "explorer.openEditors.visible": 0,
+    "files.autoSave": "afterDelay"
 }
