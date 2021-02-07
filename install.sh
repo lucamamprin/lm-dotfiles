@@ -6,6 +6,7 @@ rm ~/.bashrc
 rm ~/.bash_aliases
 rm ~/.Xdefaults
 rm ~/.Xmodmap
+rm ~/.config/Code/User/settings.json
 
 echo "Applying symlinks..."
 stow vimconfig
