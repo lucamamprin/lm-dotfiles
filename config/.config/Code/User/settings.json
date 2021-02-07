@@ -1,0 +1,21 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Nord",
+    "window.zoomLevel": 1,
+    "git.autofetch": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "git.enableSmartCommit": true,
+    "keyboard.dispatch": "keyCode",
+    "vim.smartRelativeLine": true,
+    "editor.formatOnSave": true,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "vim.vimrc.enable": true,
+    "diffEditor.renderSideBySide": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": [
+        "javascript"
+    ]
+}
