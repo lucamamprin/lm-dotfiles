@@ -12,7 +12,8 @@ echo "Applying symlinks..."
 stow vimconfig
 stow bashconfig
 stow x-files
-stow vscode
+stow config
+stow zsh
 echo "Done."
 
 echo "Downloading plug.vim..."
@@ -25,4 +26,9 @@ echo "Done."
 
 echo "Installing nvm..."
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+echo "Done."
+
+echo "Installing zsh stuff..."
+git clone https://github.com/denysdovhan/spaceship-prompt.git "$HOME/themes/spaceship-prompt" --depth=1
+ln -s "$HOME/themes/spaceship-prompt/spaceship.zsh-theme" "$HOME/themes/spaceship.zsh-theme"
 echo "Done."
