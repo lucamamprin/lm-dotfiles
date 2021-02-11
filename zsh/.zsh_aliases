@@ -1,0 +1,19 @@
+# Common aliases
+alias ref="source ~/.zshrc"
+alias ls="ls -G"
+alias ll="ls -lah"
+alias build-all="npm install && composer install && npm run dev"
+alias copy-clipboard="bash ~/scripts/copy-clipboard.sh"
+alias currentyear="cal -y $(date +"%Y")"
+alias assets-sync="$HOME/scripts/assets-sync.sh $HOME/grafiche/"
+
+# vim
+alias v="vim"
+alias sv="sudo vim"
+
+# mpv
+alias start-playlist="mpv --no-video --shuffle"
+alias start-lofi="mpv --no-video --shuffle https://www.youtube.com/watch?v=hHW1oY26kxQ"
+alias darksynth="mpv --no-video -shuffle https://www.youtube.com/playlist?list=PLw_PftenZEPeDbbV0FkVY9FqIbW3UBe4p"
+alias synthwave="mpv --no-video --shuffle https://www.youtube.com/playlist?list=PLw_PftenZEPcMLcWZSw4aZMpeftgrFQrD"
+alias sabaton-a-manetta="mpv --no-video --shuffle https://www.youtube.com/playlist?list=PLwV3-RhWZFXcmrUF-L9OZNJmz4bT_gT69"
