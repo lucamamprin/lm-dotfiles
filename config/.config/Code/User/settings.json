@@ -13,12 +13,16 @@
     "vim.vimrc.enable": true,
     "diffEditor.renderSideBySide": false,
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
+        "source.fixAll.eslint": true,
+        "source.fixAll.markdownlint": true
     },
     "eslint.validate": [
         "javascript"
     ],
     "workbench.startupEditor": "none",
     "explorer.openEditors.visible": 0,
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "'Fira Code', 'monospace', monospace",
+    "debug.console.fontFamily": "'Fira Mono', 'monospace', monospace",
+    "editor.fontLigatures": true
 }

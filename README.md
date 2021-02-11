@@ -24,3 +24,11 @@ Execute this command to install `zsh` and ` zsh-syntax-highlighting ` along with
 ```sh
 ./install.sh
 ```
+
+## Installing Fira Mono & Fira Code
+
+Execute this command to install Fira fonts. The fonts are taken directly from [this repo](https://github.com/powerline/fonts.git) and uses `stow` to create symlinks for `$HOME/.local/share/fonts`.
+
+```sh
+./install-fira.sh
+```
