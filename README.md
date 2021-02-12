@@ -27,8 +27,8 @@ Execute this command to install `zsh` and ` zsh-syntax-highlighting ` along with
 
 ## Installing Fira Mono & Fira Code
 
-Execute this command to install Fira fonts. The fonts are taken directly from [this repo](https://github.com/google/fonts) via `wget` and uses `stow` to create symlinks for `$HOME/.local/share/fonts`.
+Execute this command to install Fira (for IDEs) and Source Sans Pro (for UI elements) fonts. The fonts are taken directly from [this repo](https://github.com/google/fonts) via `wget` and uses `stow` to create symlinks for `$HOME/.local/share/fonts`.
 
 ```sh
-./install-fira.sh
+./install-fonts.sh
 ```
