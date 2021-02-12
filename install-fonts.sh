@@ -4,8 +4,6 @@ FOLDER="./fonts/.local/share/fonts"
 
 rm "$FOLDER"/*.ttf
 
-mkdir 
-
 # Fira Code (IDE)
 wget https://github.com/google/fonts/raw/master/ofl/firacode/static/FiraCode-Bold.ttf -P "$FOLDER"
 wget https://github.com/google/fonts/raw/master/ofl/firacode/static/FiraCode-Light.ttf -P "$FOLDER"
