@@ -10,10 +10,21 @@ My dotfiles and configs.
 
 ```sh
 cd ~
-git clone https://github.com/lucamamprin/lm-dotfiles.git
+git clone https://github.com/lucamamprin/lm-dotfiles.git dotfiles
 cd dotfiles
 ./install.sh
 ```
+
+### Warning
+
+All scripts imply that the repo is downloaded to a folder called `dotfiles` and it resides on your `home` directory.
+
+### Requirements
+
+* `curl`
+* `wget`
+* `tar`
+* `stow`
 
 ## Installing ZSH
 
