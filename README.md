@@ -17,7 +17,7 @@ cd dotfiles
 
 ### Warning
 
-All scripts imply that the repo is downloaded to a folder called `dotfiles` and it resides on your `home` directory.
+All scripts assume that the repo is downloaded to a folder called `dotfiles` and it resides on your `home` directory.
 
 ### Requirements
 
