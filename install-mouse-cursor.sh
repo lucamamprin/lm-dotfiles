@@ -13,7 +13,8 @@ wget "https://github.com/ful1e5/apple_cursor/releases/download/$LATEST/macOSBigS
 # extract
 tar -xvf ~/dotfiles/icons/.icons/macOSBigSur.tar.gz -C ~/dotfiles/icons/.icons
 
-# stow
-stow icons
-
+# remove tar file
 rm ~/dotfiles/icons/.icons/macOSBigSur.tar.gz 
+
+# symlink
+stow icons
